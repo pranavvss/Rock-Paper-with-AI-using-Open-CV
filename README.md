@@ -1,3 +1,4 @@
+> [!NOTE]
 >This project uses computer vision to implement a Rock-Paper-Scissors game where two players can play using hand gestures detected by a webcam. The code uses Python's OpenCV and MediaPipe libraries to detect hand landmarks and determine the hand gesture for each player.
 
 OUTPUT
