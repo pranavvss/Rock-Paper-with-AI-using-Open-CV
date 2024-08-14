@@ -55,7 +55,7 @@ def getHandMove(hand_landmarks):
     else: return "paper"
 ```
 
-getHandMove(): This function takes the detected hand landmarks and determines whether the hand gesture is "rock," "paper," or "scissors" based on the relative positions of certain landmarks.
+- getHandMove(): This function takes the detected hand landmarks and determines whether the hand gesture is "rock," "paper," or "scissors" based on the relative positions of certain landmarks.
 
 -------------------------------------------------------------------------------------
 
@@ -156,7 +156,7 @@ clock: Manages the countdown and game states. Displays "Ready?" initially, follo
             else:
                 gameText = "Didn't play properly!"
 ```
-gameText: Displays the result of the round based on the players' moves.
+- gameText: Displays the result of the round based on the players' moves.
 
 -------------------------------------------------------------------------------------
 
@@ -167,8 +167,8 @@ gameText: Displays the result of the round based on the players' moves.
         cv.putText(frame, gameText, (50, 80), cv.FONT_HERSHEY_PLAIN, 2, (0,255,255), 2, cv.LINE_AA)
         clock = (clock + 1) % 100
 ```
-cv.putText(): Displays the clock and game text on the frame.
-clock = (clock + 1) % 100: Updates the clock for the next loop iteration.
+- cv.putText(): Displays the clock and game text on the frame.
+- clock = (clock + 1) % 100: Updates the clock for the next loop iteration.
 
 -------------------------------------------------------------------------------------
 
@@ -194,3 +194,11 @@ Running the Game
 - To run the game, simply execute the script in your Python environment
 - Once the game starts, the countdown will begin, and both players should show their hand gestures (rock, paper, or scissors) when the text "GO!" appears on the screen. The game will then determine the winner based on the gestures detected.
 - Press 'q' at any time to exit the game.
+
+-------------------------------------------------------------------------------------
+
+> [!NOTE]
+> If you are intrested in projects like this "Games made using python and OpenCV (computer vision)" then you should read my other documents-
+> Flappy Bird game using OpenCV & Python [Read Document](https://github.com/pranavvss/Flappy-Bird-using-Open-CV)
+> Google Dinosaur game using OpenCV (Use your hands to jump your dino) [Read Document](https://github.com/pranavvss/Google-Dinosaur-game-using-Open-CV)
+
